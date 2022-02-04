@@ -87,6 +87,7 @@ a{
     font-size: 4.5vw;
 }
 .main_header .logo label{
+    padding: 0 10px;
     cursor: pointer;
 }
 .main_header .fas{
@@ -97,7 +98,7 @@ a{
     color: #fff;
 }
 .main_header .mb_nav{
-    padding: 0 20px;
+    padding: 20px 50px;
     display: flex;
     align-items: center;
 }
@@ -108,7 +109,8 @@ a{
 .main_header .main_nav{
     width: 80%;
     height: 100vh;
-    position: absolute;
+    position: fixed;
+    top: 0;
     left: 0;
     background-color: #000;
     transform: translateX(-150%);
@@ -138,7 +140,7 @@ a{
     height: 100vh;
     display: none;
     background-color: #0005;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
